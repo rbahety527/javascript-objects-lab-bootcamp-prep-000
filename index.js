@@ -10,8 +10,10 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key,value) {
   return object
 }
 
-function updateObjectWithKeyAndValue(object, key, value) {
+/**function updateObjectWithKeyAndValue(object, key, value) {
   var new_object = Object.assign({}, {key, value})
   return new_object
-}
+}**/
+
+
 
